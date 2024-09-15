@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.top-nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.secondary-nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+.task-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.task-list li.active {
+  background-color: #e0e0ff; /* Выделение активной задачи */
+}

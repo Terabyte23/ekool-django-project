@@ -1,0 +1,137 @@
+.ekool{
+  width: 170px;
+  height: 50px;
+  position: absolute;
+  top: 15px;
+}
+
+.lapsed{
+  width: 550px;
+  height: 550px;
+  position: absolute;
+  top: 250px;
+  left: 450px;
+}
+
+.palun{
+  position: absolute;
+  top: 200px;
+  left: 60%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.input-nimi{
+  position: absolute;
+  top: 360px;
+  left: 60%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.nimi{
+  position: absolute;
+  top: 420px;
+  left: 60%;
+  width: 320px;
+  height: 44px;
+  border-radius: 5px;
+  border: 1px solid #d6d6d6;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.password-input {
+  position: absolute;
+  top: 525px;
+  left: 60%;
+  width: 320px;
+  height: 44px;
+  border-radius: 5px;
+  border: 1px solid #d6d6d6;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.input-pass{
+  position: absolute;
+  top: 470px;
+  left: 60%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.login{
+  position: absolute;
+  top: 630px;
+  left: 60%;
+  width: 344px;
+  height: 44px;
+  border-radius: 5px;
+  border: 1px solid #d6d6d6;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  background-color: #00a1ff;
+  color: white;
+}
+
+.btncontent{
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 590px;
+  left: 60%;
+  color:#489ffe;
+}
+
+.password-container {
+    position: relative;
+    display: inline-block;
+}
+
+.eye-open,
+.eye-closed {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    cursor: pointer;
+}
+
+.eye-open,
+.eye-closed {
+    width: 24px;
+    height: auto;
+    display: none;
+}
+
+.eye-open.active {
+    display: block;
+}
+
+.eye-closed.active {
+    display: block;
+}
+
+.new{
+  position: absolute;
+  top: 680px;
+  left: 62%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.newacc{
+  position: absolute;
+  top: 702px;
+  left: 72.5%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color:#489ffe
+}

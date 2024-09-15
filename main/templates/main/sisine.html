@@ -1,0 +1,53 @@
+{% load static %}
+<!doctype html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>eKool</title>
+    <link rel="stylesheet" href="{% static 'main/css/reg.css' %}">
+    <link rel="icon" href="{% static 'main/img/logo.png' %}" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1 class="aita">Isikuandmed</h1>
+  <div class="registr">
+    <h4 class="input-email">E-post</h4>
+    <input class="email">
+    <h4 class="parool">Parool: </h4>
+    <input type="password" class="parool-input">
+    <h4 class="parool-kaks">Korda parooli</h4>
+    <input type="password" class="parool-input-kaks">
+      <h5 class="podskazka">* Paroolis peab olema vähemalt 9 tähemärki ja
+          <br>
+          vastama 3-le järgmistest nõuetest:
+          <br>
+          sisaldama väiketähte, suurtähte, numbrit või erimärki</h5>
+      <input type="checkbox" class="checkbox">
+      <label class="check">Palun mulle saata e-posti teel eKooli
+          <br>
+          partnerite pakkumisi ja teavitusi</label>
+      </input>
+      <a href="{% url 'index' %}"><button class="btn" onclick="redirectToLoginPage()">Lõpetada</button></a>
+  </div>
+<acide>
+    <img class="ekool" src="{% static 'main/img/ekool.png' %}">
+    <img class="lapsed" src="{% static 'main/img/lapsed.svg' %}">
+    <div class="password-container">
+      <img src="{% static 'main/img/show.png' %}" alt="Open eye" class="eye-open" onclick="togglePasswordVisibility()">
+      <img src="{% static 'main/img/hide.png' %}" alt="Closed eye" class="eye-closed" onclick="togglePasswordVisibility()">
+  </div>
+</acide>
+<main>
+    {% block content %}
+    {% endblock %}
+</main>
+  <script src="{% static 'main/js/script.js' %}"></script>
+</body>
+</html>

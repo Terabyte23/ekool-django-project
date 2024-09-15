@@ -1,0 +1,162 @@
+.ekool{
+  width: 170px;
+  height: 50px;
+  position: absolute;
+  top: 15px;
+}
+
+.lapsed{
+  width: 550px;
+  height: 550px;
+  position: absolute;
+  top: 250px;
+  left: 450px;
+}
+
+.aita{
+  position: absolute;
+  top: 200px;
+  left: 60%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.input-email{
+  position: absolute;
+  top: 260px;
+  left: 60%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.email{
+  position: absolute;
+  top: 320px;
+  left: 60%;
+  width: 320px;
+  height: 44px;
+  border-radius: 5px;
+  border: 1px solid #d6d6d6;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.parool-input{
+  position: absolute;
+  top: 425px;
+  left: 60%;
+  width: 320px;
+  height: 44px;
+  border-radius: 5px;
+  border: 1px solid #d6d6d6;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.parool{
+  position: absolute;
+  top: 370px;
+  left: 60%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.parool-kaks{
+  position: absolute;
+  top: 470px;
+  left: 60%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.parool-input-kaks{
+  position: absolute;
+  top: 525px;
+  left: 60%;
+  width: 320px;
+  height: 44px;
+  border-radius: 5px;
+  border: 1px solid #d6d6d6;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.btn{
+  position: absolute;
+  top: 725px;
+  left: 60%;
+  width: 332px;
+  height: 44px;
+  border-radius: 5px;
+  border: 1px solid #d6d6d6;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  background-color: #00a1ff;
+  color: white;
+}
+
+.password-container {
+    position: relative;
+    display: inline-block;
+}
+
+.eye-open,
+.eye-closed {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    cursor: pointer;
+}
+
+.eye-open,
+.eye-closed {
+    width: 24px;
+    height: auto;
+    display: none;
+}
+
+.eye-open.active {
+    display: block;
+}
+
+.eye-closed.active {
+    display: block;
+}
+.podskazka{
+  position: absolute;
+  top: 570px;
+  left: 60.5%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #9CA3AF;
+}
+.check{
+  position: absolute;
+  top: 655px;
+  left: 63%;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px !important;
+  line-height: 24px;
+  cursor: pointer;
+  color: #161718;
+}
+.checkbox{
+  position: absolute;
+  top: 655px;
+  left: 61%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}

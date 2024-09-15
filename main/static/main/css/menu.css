@@ -1,0 +1,169 @@
+.top-bar{
+    background-color: #232836;
+    padding: 20px 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.bar{
+    background-color: #232836;
+    padding: 100% 30px;
+    position: fixed;
+    top: 80px;
+    left: 0;
+}
+.kodu{
+    position: relative;
+    z-index: 1001;
+    width: 40px;
+    height: 40px;
+}
+.pitsat{
+    position: relative;
+    z-index: 1001;
+    width: 25px;
+    height: 25px;
+    left: 45px;
+    top: -10px;
+}
+.vestlus{
+    position: relative;
+    z-index: 1001;
+    width: 25px;
+    height: 25px;
+    left: 60px;
+    top: -10px;
+}
+.strelki{
+    position: absolute;
+    z-index: 1001;
+    width: 40px;
+    height: 40px;
+    left: 20%;
+    top: 0;
+}
+.logout{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 95%;
+    top: 25px;
+}
+.profil{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 92%;
+    top: 25px;
+}
+.abi{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 89%;
+    top: 25px;
+}
+.nik{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #595959;
+}
+.ul{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #252525;
+}
+a{
+   text-decoration: none;
+   color: #252525;
+    margin-right:20px;
+}
+.border{
+    position: absolute;
+    border: 1px solid;
+    top: 30%;
+    left: 10%;
+    width: 70%;
+    height: 13%;
+}
+.kiirviited{
+    background: #f2f2f2;
+    height: 49%;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #252525;
+    font-size: 30px;
+}
+.border-h{
+    color: #CDCDCD;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    left: 10px;
+}
+.border-uudisvoog{
+    position: absolute;
+    border: 1px solid;
+    top: 47%;
+    left: 10%;
+    width: 70%;
+    height: 25%;
+}
+.uudisvoog{
+    background: #f2f2f2;
+    height: 25%;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #252525;
+    font-size: 30px;
+}
+.uudisvoog-a{
+    transition: color 0.3s;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #252525;
+    position: absolute;
+    top: 15px;
+    left: 15%;
+}
+.news{
+    width: 25px;
+    height: 25px;
+}
+.calender{
+    width: 25px;
+    height: 25px;
+}
+.grafik{
+    width: 25px;
+    height: 25px;
+}
+.tree{
+    width: 25px;
+    height: 25px;
+}
+.blunk{
+    width: 25px;
+    height: 25px;
+}
+.add{
+    width: 50px;
+    height: 50px;
+    z-index: 1001;
+    position: absolute;
+    top: 2%;
+    left:10px;
+}
